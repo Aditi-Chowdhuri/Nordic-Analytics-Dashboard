@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Dark navy background with slight rounding -->
+  <rect width="32" height="32" rx="7" fill="#040914"/>
+  <!-- Subtle radial glow -->
+  <radialGradient id="g" cx="60%" cy="35%" r="65%">
+    <stop offset="0%" stop-color="#6ab0d4" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#040914" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="32" height="32" rx="7" fill="url(#g)"/>
+  <!-- Diagonal shaft: bottom-left to top-right -->
+  <line x1="7" y1="25" x2="25" y2="7"
+    stroke="#6ab0d4" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Arrowhead at top-right -->
+  <polyline points="14,7 25,7 25,18"
+    stroke="#6ab0d4" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
